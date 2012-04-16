@@ -2,6 +2,8 @@
 
 Github repository language highlighting experiment.
 
+![Colors](https://raw.github.com/geetarista/github-language-rainbow/master/colors.png)
+
 ## Disclaimer
 
 These files are not meant to be executed, but just to represent the language with a simple one-line `"Hello, World!"`. I just wanted to see what it looks like when a repository has a ton of languages.
