@@ -1,0 +1,16 @@
+  SET A, string ; String pointer
+  SET B, 0x8000 ; Screen pointer
+:loop
+  IFE [A], 0
+    SET PC, end
+  SET [B], [A] ; Copy character onto screen
+  ADD [B], 0xA000 ; Color character (bright green)
+  ADD A, 1
+  ADD B, 1
+  SET PC, loop
+
+:end
+  BRK
+
+:string
+  DAT "Hello, World!", 0
